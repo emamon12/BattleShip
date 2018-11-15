@@ -1,4 +1,4 @@
-package riperonibattleroni;
+package battleship;
 
 import javafx.scene.Parent;
 
@@ -11,8 +11,7 @@ public class Ship extends Parent {
  
     private int health;
 
-    public Ship(int xCoord, int yCoord, int length, boolean vertical,
-            char orientation) {
+    public Ship(int xCoord, int yCoord, int length, char orientation) {
         
         this.length = length;
         this.orientation = orientation;

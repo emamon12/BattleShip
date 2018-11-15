@@ -1,1 +1,1 @@
-# BattleShip v1.2
+# BattleShip v0.3
