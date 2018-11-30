@@ -19,8 +19,18 @@ public class Cell extends Rectangle {
         setStroke(Color.BLACK);
     }
     
-    //currently unused may be used to color a cell a different color.
-    //boolean f isnt used
+    /**
+     *
+     * @param x
+     * @param y 
+     * @param board any board that is using this cell
+     * @param f just used to differentiate from the other constructor
+     * @see Board
+     * @since version 0.2.2
+     * @author Elijah Joshua Mamon=
+     * <p>
+     * This cell method <p/>
+     */
     public Cell(int x, int y, Board board, boolean f) {
         super(30, 30);
         this.x = x;

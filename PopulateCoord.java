@@ -10,11 +10,22 @@ package battleship;
  * @author ElijahJoshua
  */
 public class PopulateCoord {
-   
+   /**
+     *
+     * @param shipArray
+     * @param xCoord
+     * @param yCoord
+     * @param orientation
+     * @see Launch
+     * @since version 0.1.3
+     * @author Elijah Joshua Mamon
+     * <p>
+     * Populates a coordinate array with given parameters. It increments
+     * positively from the initial.<p/>
+     */
     public static void populateCoord(int[] shipArray, int xCoord, int yCoord,
             char orientation){
-        //populates the arrays of coordinates. Increments positively from the
-        //initial.
+        
         for (int i = 0; i < shipArray.length; i++) {
             if (orientation == 'h') {
                 shipArray[i] = xCoord;
